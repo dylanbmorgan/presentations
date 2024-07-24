@@ -1,0 +1,41 @@
+#+startup: showall inlineimages
+#+options: toc:nil reveal_width:960 reveal_height:700
+
+#+title: FHI-aims Compilation
+#+subtitle: Discussion for resolving current difficulties with compiling FHI-aims
+#+date: <2024-07-25 Thu>
+#+author: Dylan Morgan
+#+email: dylan.morgan@warwick.ac.uk
+
+#+reveal_theme: white
+#+reveal_talk_url: TODO
+#+reveal_talk_qr_code: TODO
+#+reveal_title_slide: <h1>%t</h1><h2>%s</h2><h3>%A %a</h3><p>View online: <a href="%u">%u</a></p><p>
+
+* FHI-aims 'Supported' HPCs
++ Cray (GNU)
+  - Archer2
+  - Lumi-G
+  - Lumi-C
+
++ SCRTP (GNU/Intel)
+  - Sulis
+  - Avon
+  - Blythe (Orac replacement)
+  - Dedicated
+
++ Others
+  - Apple silicon
+  - Intel oneAPI
+
+[[./figures/hpc_modules.png]]
+
+* Compilation Options
+
+* Compilation Problems
+** Dedicated Nodes
++ Unstable results with Intel compilers
+
+* Proposed Solutions
+** Scaling Tests
+

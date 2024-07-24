@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>FHI-aims Compilation</title>
+<meta name="author" content="Dylan Morgan"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/dist/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/dist/theme/white.css" id="theme"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>FHI-aims Compilation</h1><h2>Discussion for resolving current difficulties with compiling FHI-aims</h2><h3> Dylan Morgan</h3><p>View online: <a href="TODO">TODO</a></p><p>
+</section>
+<section>
+<section id="slide-1">
+<h2 id="1"><span class="section-number-2">1.</span> FHI-aims &rsquo;Supported&rsquo; HPCs</h2>
+<ul>
+<li>Cray (GNU)
+<ul>
+<li>Archer2</li>
+<li>Lumi-G</li>
+<li>Lumi-C</li>
+
+</ul></li>
+
+<li>SCRTP (GNU/Intel)
+<ul>
+<li>Sulis</li>
+<li>Avon</li>
+<li>Blythe (Orac replacement)</li>
+<li>Dedicated</li>
+
+</ul></li>
+
+<li>Others
+<ul>
+<li>Apple silicon</li>
+<li>Intel oneAPI</li>
+
+</ul></li>
+
+</ul>
+
+
+<div id="org23c7e71" class="figure">
+<p><img src="./figures/hpc_modules.png" alt="hpc_modules.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-2">
+<h2 id="2"><span class="section-number-2">2.</span> Compilation Options</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-3">
+<h2 id="3"><span class="section-number-2">3.</span> Compilation Problems</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+</section>
+<section id="slide-3-1">
+<h3 id="3-1"><span class="section-number-3">3.1.</span> Dedicated Nodes</h3>
+<ul>
+<li>Unstable results with Intel compilers</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-4">
+<h2 id="4"><span class="section-number-2">4.</span> Proposed Solutions</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+</section>
+<section id="slide-4-1">
+<h3 id="4-1"><span class="section-number-3">4.1.</span> Scaling Tests</h3>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/dist/reveal.js"></script>
+<script src="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/plugin/markdown/markdown.js"></script>
+<script src="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/plugin/notes/notes.js"></script>
+<script src="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/plugin/search/search.js"></script>
+<script src="file:///home/dylanmorgan/.config/emacs/.local/straight/build-29.4/revealjs/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c/t',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: true,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+width: 960,
+height: 700,
+
+transition: 'convex',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
